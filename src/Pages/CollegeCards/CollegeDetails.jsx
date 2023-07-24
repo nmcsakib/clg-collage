@@ -6,7 +6,7 @@ const CollegeDetails = () => {
 const [data, setData] = useState([])
   const {id} = useParams()
   useEffect(() => {
-    fetch(`http://localhost:3000/college/${id}`).then(res => res.json()).then(data => setData(data))
+    fetch(`https://college-collage-server.vercel.app/college/${id}`).then(res => res.json()).then(data => setData(data))
   },[id])
   console.log(data);
   const {image_url, college_name, events, research_history, sports} = data;

@@ -10,7 +10,7 @@ const Main = () => {
  
  
   useEffect(() => {
-    fetch('http://localhost:3000/colleges')
+    fetch('https://college-collage-server.vercel.app/colleges')
       .then((response) => response.json())
       .then((data) => {
         setData(data);

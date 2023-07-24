@@ -9,7 +9,7 @@ const AdmissionDetails = () => {
     const [college, setData] = useState([])
   const {id} = useParams()
   useEffect(() => {
-    fetch(`http://localhost:3000/college/${id}`).then(res => res.json()).then(data => setData(data))
+    fetch(`https://college-collage-server.vercel.app/college/${id}`).then(res => res.json()).then(data => setData(data))
   },[id])
 
   const {
@@ -20,7 +20,7 @@ const AdmissionDetails = () => {
 
   const onSubmit = (data) => {
     console.log(data);
-    fetch('http://localhost:3000/candidate-details/', {
+    fetch('https://college-collage-server.vercel.app/candidate-details/', {
         method: "POST",
         headers: {
           "content-type": "application/json"
