@@ -1,0 +1,304 @@
+[
+        {
+          "college_name": "Sample University",
+          "image_url": "https://example.com/college1.jpg",
+          "admission_dates": {
+            "application_deadline": "2024-05-30"
+           
+          },
+          "events": {
+            "upcoming_events": [
+              {
+                "event_name": "Annual Cultural Fest",
+                "date": "2024-09-15",
+                "description": "A week-long cultural fest featuring music, dance, drama, and various competitions."
+              },
+              {
+                "event_name": "TechExpo",
+                "date": "2024-11-20",
+                "description": "An exhibition showcasing innovative projects and technological advancements."
+              }
+            ]
+          },
+          "research_history": [
+            {
+              "title": "Advancements in Renewable Energy",
+              "author": "John Doe",
+              "publication_date": "2023-01-15",
+              "abstract": "This research paper explores the latest developments in renewable energy sources."
+            },
+            {
+              "title": "AI and its Applications",
+              "author": "Jane Smith",
+              "publication_date": "2022-09-20",
+              "abstract": "An in-depth analysis of artificial intelligence and its various applications in different fields."
+            }
+          ],
+          "sports": [
+            {
+              "category": "Football",
+              "description": "A popular sport loved by many students."
+            },
+            {
+              "category": "Basketball",
+              "description": "Join our basketball team and enjoy the competitive spirit."
+            },
+            {
+              "category": "Swimming",
+              "description": "Train with our experienced coaches and participate in swimming competitions."
+            }
+          ]
+        },
+        {
+          "college_name": "Another College",
+          "image_url": "https://example.com/college2.jpg",
+          "admission_dates": {
+            "application_deadline": "2024-06-15"
+            
+          },
+          "events": {
+            "upcoming_events": [
+              {
+                "event_name": "Annual Cultural Fest",
+                "date": "2024-09-15",
+                "description": "A week-long cultural fest featuring music, dance, drama, and various competitions."
+              },
+              {
+                "event_name": "TechExpo",
+                "date": "2024-11-20",
+                "description": "An exhibition showcasing innovative projects and technological advancements."
+              }
+            ]
+          },
+          "research_history": [
+            {
+              "title": "Advancements in Renewable Energy",
+              "author": "John Doe",
+              "publication_date": "2023-01-15",
+              "abstract": "This research paper explores the latest developments in renewable energy sources."
+            },
+            {
+              "title": "AI and its Applications",
+              "author": "Jane Smith",
+              "publication_date": "2022-09-20",
+              "abstract": "An in-depth analysis of artificial intelligence and its various applications in different fields."
+            }
+          ],
+          "sports": [
+            {
+              "category": "Football",
+              "description": "A popular sport loved by many students."
+            },
+            {
+              "category": "Basketball",
+              "description": "Join our basketball team and enjoy the competitive spirit."
+            },
+            {
+              "category": "Swimming",
+              "description": "Train with our experienced coaches and participate in swimming competitions."
+            }
+          ]
+        },
+        {
+          "college_name": "Yet Another University",
+          "image_url": "https://example.com/college3.jpg",
+          "admission_dates": {
+            "application_deadline": "2024-07-15"
+           
+          },
+          "events": {
+
+            "upcoming_events": [
+              {
+                "event_name": "Annual Cultural Fest",
+                "date": "2024-09-15",
+                "description": "A week-long cultural fest featuring music, dance, drama, and various competitions."
+              },
+              {
+                "event_name": "TechExpo",
+                "date": "2024-11-20",
+                "description": "An exhibition showcasing innovative projects and technological advancements."
+              }
+            ]
+          },
+          "research_history": [
+            {
+              "title": "Advancements in Renewable Energy",
+              "author": "John Doe",
+              "publication_date": "2023-01-15",
+              "abstract": "This research paper explores the latest developments in renewable energy sources."
+            },
+            {
+              "title": "AI and its Applications",
+              "author": "Jane Smith",
+              "publication_date": "2022-09-20",
+              "abstract": "An in-depth analysis of artificial intelligence and its various applications in different fields."
+            }
+          ],
+          "sports": [
+            {
+              "category": "Football",
+              "description": "A popular sport loved by many students."
+            },
+            {
+              "category": "Basketball",
+              "description": "Join our basketball team and enjoy the competitive spirit."
+            },
+            {
+              "category": "Swimming",
+              "description": "Train with our experienced coaches and participate in swimming competitions."
+            }
+          ]
+        },
+        {
+          "college_name": "ABC University",
+          "image_url": "https://example.com/college2.jpg",
+          "admission_dates": {
+            "application_deadline": "2024-06-30"
+          },
+          "events": {
+            "upcoming_events": [
+              {
+                "event_name": "Annual Sports Meet",
+                "date": "2024-10-05",
+                "description": "A week-long sports event featuring various games and competitions."
+              },
+              {
+                "event_name": "Literary Fest",
+                "date": "2024-12-15",
+                "description": "A celebration of literature, featuring talks, workshops, and book launches."
+              }
+            ]
+          },
+          "research_history": [
+            {
+              "title": "The Future of Space Exploration",
+              "author": "Mark Johnson",
+              "publication_date": "2023-05-20",
+              "abstract": "This research paper explores the latest developments in space exploration and the possibilities for the future."
+            },
+            {
+              "title": "Climate Change and its Impact on Biodiversity",
+              "author": "Sarah Lee",
+              "publication_date": "2022-11-10",
+              "abstract": "An analysis of the effects of climate change on biodiversity and the measures that can be taken to mitigate them."
+            }
+          ],
+          "sports": [
+            {
+              "category": "Cricket",
+              "description": "Join our cricket team and showcase your skills on the field."
+            },
+            {
+              "category": "Badminton",
+              "description": "Play badminton with fellow students and participate in tournaments."
+            },
+            {
+              "category": "Table Tennis",
+              "description": "Sharpen your table tennis skills and compete with other players."
+            }
+          ]
+        },
+        {
+          "college_name": "Sample University",
+          "image_url": "https://example.com/college1.jpg",
+          "admission_dates": {
+            "application_deadline": "2024-05-30"
+           
+          },
+          "events": {
+            "upcoming_events": [
+              {
+                "event_name": "Annual Cultural Fest",
+                "date": "2024-09-15",
+                "description": "A week-long cultural fest featuring music, dance, drama, and various competitions."
+              },
+              {
+                "event_name": "TechExpo",
+                "date": "2024-11-20",
+                "description": "An exhibition showcasing innovative projects and technological advancements."
+              }
+            ]
+          },
+          "research_history": [
+            {
+              "title": "Advancements in Renewable Energy",
+              "author": "John Doe",
+              "publication_date": "2023-01-15",
+              "abstract": "This research paper explores the latest developments in renewable energy sources."
+            },
+            {
+              "title": "AI and its Applications",
+              "author": "Jane Smith",
+              "publication_date": "2022-09-20",
+              "abstract": "An in-depth analysis of artificial intelligence and its various applications in different fields."
+            }
+          ],
+          "sports": [
+            {
+              "category": "Football",
+              "description": "A popular sport loved by many students."
+            },
+            {
+              "category": "Basketball",
+              "description": "Join our basketball team and enjoy the competitive spirit."
+            },
+            {
+              "category": "Swimming",
+              "description": "Train with our experienced coaches and participate in swimming competitions."
+            }
+          ]
+        },
+        {
+          "college_name": "Another College",
+          "image_url": "https://example.com/college2.jpg",
+          "admission_dates": {
+            "application_deadline": "2024-06-15"
+            
+          },
+          "events": {
+            "upcoming_events": [
+              {
+                "event_name": "Annual Cultural Fest",
+                "date": "2024-09-15",
+                "description": "A week-long cultural fest featuring music, dance, drama, and various competitions."
+              },
+              {
+                "event_name": "TechExpo",
+                "date": "2024-11-20",
+                "description": "An exhibition showcasing innovative projects and technological advancements."
+              }
+            ]
+          },
+          "research_history": [
+            {
+              "title": "Advancements in Renewable Energy",
+              "author": "John Doe",
+              "publication_date": "2023-01-15",
+              "abstract": "This research paper explores the latest developments in renewable energy sources."
+            },
+            {
+              "title": "AI and its Applications",
+              "author": "Jane Smith",
+              "publication_date": "2022-09-20",
+              "abstract": "An in-depth analysis of artificial intelligence and its various applications in different fields."
+            }
+          ],
+          "sports": [
+            {
+              "category": "Football",
+              "description": "A popular sport loved by many students."
+            },
+            {
+              "category": "Basketball",
+              "description": "Join our basketball team and enjoy the competitive spirit."
+            },
+            {
+              "category": "Swimming",
+              "description": "Train with our experienced coaches and participate in swimming competitions."
+            }
+          ]
+        }
+        
+    
+    ]
