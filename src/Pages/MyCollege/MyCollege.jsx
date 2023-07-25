@@ -7,7 +7,7 @@ import { AuthContext } from "../../Providers/AuthProviders";
 const MyCollege = () => {
     const {user} = useContext(AuthContext);
     useEffect(() => {
-        fetch(`http://localhost:3000/my-college/${user?.email}`).then(res => res.json()).then(data => {
+        fetch(`https://college-collage-server.vercel.app/my-college/${user?.email}`).then(res => res.json()).then(data => {
             console.log(data);
         })
     },[user])
