@@ -1,8 +1,16 @@
 
+import { useContext, useEffect } from "react";
 import { useForm } from "react-hook-form";
 
-const MyCollege = () => {
+import { AuthContext } from "../../Providers/AuthProviders";
 
+const MyCollege = () => {
+    const {user} = useContext(AuthContext);
+    useEffect(() => {
+        fetch(`http://localhost:3000/my-college/${user?.email}`).then(res => res.json()).then(data => {
+            console.log(data);
+        })
+    },[user])
 
     const {
         register,
@@ -40,7 +48,7 @@ return (
         </div>
         <div className="relative mb-4">
           <label htmlFor="subject" className="leading-7 text-gray-600">Review Details:</label>
-          <textarea cols={8} rows={20} required {...register("review")} type="text" id="subject" name="subject" className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
+          <textarea  rows={5} required {...register("review")} type="text" id="subject" name="subject" className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
         </div>
       
         <button type="submit" className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Submit</button>

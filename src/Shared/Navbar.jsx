@@ -21,7 +21,7 @@ return (
       <Link to='/' className="mr-5 hover:text-gray-900 text-gray-600 hover:border-b-2 border-yellow-900 font-semibold cursor-pointer">Home</Link>
       <Link to='all-college' className="mr-5 hover:text-gray-900 text-gray-600 hover:border-b-2 border-yellow-900 font-semibold cursor-pointer">Colleges</Link>
       <Link to='admission' className="mr-5 hover:text-gray-900 text-gray-600 hover:border-b-2 border-yellow-900 font-semibold cursor-pointer">Admission</Link>
-      <a className="mr-5 hover:text-gray-900 text-gray-600 hover:border-b-2 border-yellow-900 font-semibold cursor-pointer">My College</a>
+      <Link to='my-college/' className="mr-5 hover:text-gray-900 text-gray-600 hover:border-b-2 border-yellow-900 font-semibold cursor-pointer">My College</Link>
     </nav>
     {
       user ?  <><button onClick={handelLogOut} className="w-32 gap-2 text-white hover:to-yellow-900 transition-all font-semibold bg-gradient-to-b from-yellow-600 to-yellow-800 px-2 py-2 rounded-l-md flex justify-center items-center">Logout</button>

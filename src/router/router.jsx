@@ -10,6 +10,7 @@ import AllColleges from "../Pages/AllColleges/AllColleges";
 import Addmission from "../Pages/Addmission/Addmission";
 import AdmissionDetails from "../Pages/AdmissionDetails/AdmissionDetails";
 import MyCollege from "../Pages/MyCollege/MyCollege";
+import PrivateRoute from "./PrivateRoute";
 
 export const router = createBrowserRouter([
     {
@@ -22,7 +23,7 @@ export const router = createBrowserRouter([
             },
             {
                 path: '/college/:id',
-                element: <CollegeDetails/>,
+                element: <PrivateRoute><CollegeDetails/></PrivateRoute>,
                
             },
             {
@@ -36,13 +37,13 @@ export const router = createBrowserRouter([
                
             },
             {
-                path: '/my-college/:email',
-                element: <MyCollege/>,
+                path: '/my-college/',
+                element: <PrivateRoute><MyCollege/></PrivateRoute>,
                
             },
             {
                 path: '/admission-details/:id',
-                element: <AdmissionDetails/>,
+                element: <PrivateRoute><AdmissionDetails/></PrivateRoute>,
                
             },
             {
